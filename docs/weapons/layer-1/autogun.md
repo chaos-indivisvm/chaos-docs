@@ -2,7 +2,7 @@
 layout: default
 tit;e: Autogun
 nav_order: 1
-parent: Layer-1
+parent: Layer 1
 grand_parent: Weapons
 ---
 
