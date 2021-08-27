@@ -74,6 +74,8 @@ Our goal, ultimately, is to spread endless war by facilitating the means to war,
 Your duty as an soldier of Chaos Indivisvm is to combat the furry menace, to safeguard our land and to ensure the security of our group.
 
 #### DISCORD
+DISCORD LINK:http://hey.gayboi.icu
+
 DISCORD IS OUR PRIMARY LINE OF COMMUNICATION. STAYING IN DISCORD DURING YOUR DOWNTIME IS THE BEST WAY TO KNOW WHEN WE ARE DOING STUFF!
 
 We Also Have Mumble for when Discord goes down.
@@ -90,7 +92,7 @@ Specifically:
 + If you are having an issue with a member of another group allow the Enforcers to handle   it for you so that it does not become a future problem for Command to have to deal with     later.
 + This is not a dating group, keep your relationship drama out of group issues.
 
-If you are having issues with anyone you **should** contact and Enforcer to handle it if trying to handle it on your own did not solve the issue.
+If you are having issues with anyone you should contact and Enforcer to handle it if trying to handle it on your own did not solve the issue. In the event you cannot attempt to solve the issue on your own for any reason, you are still encouraged to contact an Enforcer.
 
 #### Activity:
 You are expected, upon joining, to take part in at least 3 raids ( attacks on other sims ) or defenses each week.
