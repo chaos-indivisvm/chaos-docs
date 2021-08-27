@@ -73,11 +73,24 @@ Our goal, ultimately, is to spread endless war by facilitating the means to war,
 #### Your Duty
 Your duty as an soldier of Chaos Indivisvm is to combat the furry menace, to safeguard our land and to ensure the security of our group.
 
-#### MUMBLE
-MUMBLE ADDRESS IS : `ts.hadettheundying.com`
+#### DISCORD
+DISCORD IS OUR PRIMARY LINE OF COMMUNICATION. STAYING IN DISCORD DURING YOUR DOWNTIME IS THE BEST WAY TO KNOW WHEN WE ARE DOING STUFF!
 
-MUMBLE IS OUR PRIMARY LINE OF COMMUNICATION. STAYING IN MUMBLE DURING YOUR DOWNTIME IS THE BEST WAY TO KNOW WHEN WE ARE DOING STUFF!
+We Also Have Mumble for when Discord goes down.
 
+MUMBLE ADDRESS IS : `forum.chaos.church`
+
+#### Conduct
+While our group is fairly light hearted and easy going, you are still expected to conduct   yourself in a way that does not misrepresent or harm the group's image. This applies to     internal and external issues.
+
+Specifically:
+
++ You must listen to commands given to you by those that outrank you unless they violate    the actual law or Second Life Terms of Service
++ You should not go out of your way to antagonize members of the group after they've asked  you to stop, there will be consequences for this. Jokes can go too far
++ If you are having an issue with a member of another group allow the Enforcers to handle   it for you so that it does not become a future problem for Command to have to deal with     later.
++ This is not a dating group, keep your relationship drama out of group issues.
+
+If you are having issues with anyone you **should** contact and Enforcer to handle it if trying to handle it on your own did not solve the issue.
 
 #### Activity:
 You are expected, upon joining, to take part in at least 3 raids ( attacks on other sims ) or defenses each week.
