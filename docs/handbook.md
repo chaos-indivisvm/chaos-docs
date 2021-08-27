@@ -78,6 +78,17 @@ MUMBLE ADDRESS IS : `ts.hadettheundying.com`
 
 MUMBLE IS OUR PRIMARY LINE OF COMMUNICATION. STAYING IN MUMBLE DURING YOUR DOWNTIME IS THE BEST WAY TO KNOW WHEN WE ARE DOING STUFF!
 
+#### Personal Conduct
+While our group is fairly light hearted and easy going, you are still expected to conduct yourself in a way that does not misrepresent or harm the group's image. This applies to internal and external issues.
+
+Specifically:
+
++ You must listen to commands given to you by those that outrank you unless they violate the actual law or Second Life Terms of Service
++ You should not go out of your way to antagonize members of the group after they've asked you to stop, there will be consequences for this. Jokes can go too far
++ If you are having an issue with a member of another group allow the Enforcers to handle it for you so that it does not become a future problem for Command to have to deal with later.
++ This is not a dating group. It is fine if your Significant Other joins the group but your relationship drama is not our responsibility. 
+
+If you are having an issue with another member you **must** notify an Enforcer if attempting to fix it on your own has failed. Combat Conduct is covered later in the handbook. 
 
 #### Activity:
 You are expected, upon joining, to take part in at least 3 raids ( attacks on other sims ) or defenses each week.
