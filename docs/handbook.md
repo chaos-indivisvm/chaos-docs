@@ -126,21 +126,21 @@ During Recruitment Ops, a mobile application dispenser will most likely be utili
 Command of any given situation is usually defaulted to the Overlord on duty. In the event that a ranking officer is not online, command is given to the highest ranking officer, or whoever takes charge in a situation. While you shouldn't step out of line when a chain of command is established, showing initiative in a time of need is never a bad thing.
 
 
-+ Uniform Standards:
+#### Uniform Standards:
 - You may customize your armor via tinting, However this must be approved by an Overlord.
 - You may add decorations and 'Trophies' to your armor as long as they fit the 'Chaos' Theme.
 - No form of furryshit including Nekos, Bronies and Japanese weeaboos.
 - You must be wearing boots. Leg modifications must be approved by an Overlord.
 - The Sororitas Armor by Heretech is allowed to be worn by female avatars, provided that an acceptable color is used.
 ( Direct link to this armor - https://marketplace.secondlife.com/stor ... ?id=161060)
--Though we'd much prefer you use the Female Vraksian Armor. (NO SPONGE!)
+- Though we'd much prefer you use the Female Vraksian Armor. (NO SPONGE!)
 
 Your Uniform is to be worn at all times whilst on duty. Misrepresentation of Chaos through your laxness is not acceptable. Furry avatars are NEVER allowed. He who allows the furry to live shares the guilt of it's existence.
 
 If you think your modification is extreme enough to warrant a second opinion, you probably have to ask an Overlord for approval.
 
 
-+ Unlocking Gear:
+### Unlocking Gear:
 Throughout your enlistment in Chaos, you will likely utilize different pieces of our armory. The higher the rank of the weapon, the higher the complexity, power, or utility.
 
 Gear in the armory may be unlocked in several ways:
