@@ -89,10 +89,10 @@ Specifically:
 
 + You must listen to commands given to you by those that outrank you unless they violate    the actual law or Second Life Terms of Service
 + You should not go out of your way to antagonize members of the group after they've asked  you to stop, there will be consequences for this. Jokes can go too far
-+ If you are having an issue with a member of another group allow the eNFORCERS to handle   it for you so that it does not become a future problem for Command to have to deal with     later.
++ If you are having an issue with a member of another group allow the enforcers to handle   it for you so that it does not become a future problem for Command to have to deal with     later.
 + This is not a dating group, keep your relationship drama out of group issues.
 
-If you are having issues with anyone you should contact and **ENFORCER** to handle it if trying to handle it on your own did not solve the issue. In the event you cannot attempt to solve the issue on your own for any reason, you are still encouraged to contact an *ENFORCER*.
+If you are having issues with anyone you should contact an enforcer to handle it if trying to handle it on your own did not solve the issue. In the event you cannot attempt to solve the issue on your own for any reason, you are still encouraged to contact an enforcer.
 
 #### Activity:
 You are expected, upon joining, to take part in at least 3 raids ( attacks on other sims ) or defenses each week.
