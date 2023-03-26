@@ -31,8 +31,7 @@ If your group declares its intentions to be obnoxious little assholes don't expe
 5. Explosives should be interceptable, counter interceptors with chaff.
 6. Infantry repair tools only
 7. Don't beta test gear without asking the OIC
-8. LBA armor systems only
-9. 
+8. LBA armor systems only 
 
 # Expanded Rules - LONG VERSION 
 ## I. Don't be an Asshole:
@@ -63,7 +62,11 @@ Examples of this include:
     * THIS MEANS - YOUR RAYCAST WEAPONRY MUST HAVE A VISUAL TRAIL, LIKE A LASER, FROM THE POINT OF EMISSION TO POINT OF CONTACT. DO NOT MIX YOUR TRAIL AND KILL PRIM.
     * ALL BULLETS MUST BE CLEARLY VISIBLE, NO INVISIBLE OR NEARLY INVISIBLE BLACK BULLETS! 
     * EXCEPTIONS CAN BE MADE FOR SUPPRESSED GUNS FIRING AT UNDER 150 M/S 
-3. Proprietary shotgun or hitscan methods must be publicly available on github, this does not mean you must open source your entire gun, just that the damage methodology is publicly available and transparent. Acceptable methods for shotguns include but are not limited to :
+3. Shotgun and shotgun hitscan methods must be publicly available on github, this does not mean you must open source your entire gun, just that the damage methodology is publicly available and transparent. Acceptable methods for shotguns include but are not limited to :
+- Exclusively Raycast (https://github.com/Krutchen/rc-pellet-shotguns) *Our preferred method, an example is available in the attacker spawn
+- Sensor Shotguns with distance & edge falloff (Not a flat damage falloff only cone)
+- Traditional Prim (ideally you should use one of the above methods)
+Shotguns MUST either have strictly partial damage pellets, or use a damage falloff system like in the rc-pellet-shotguns repo.
 - Exclusively Raycast (https://github.com/Krutchen/rc-pellet-shotguns) *Our preferred method, an example is available in the attacker spawn
 - Sensor Shotguns with distance & edge falloff (Not a flat damage falloff only cone)
 - Traditional Prim (ideally you should use one of the above methods)
