@@ -73,11 +73,26 @@ Our goal, ultimately, is to spread endless war by facilitating the means to war,
 #### Your Duty
 Your duty as an soldier of Chaos Indivisvm is to combat the furry menace, to safeguard our land and to ensure the security of our group.
 
-#### MUMBLE
-MUMBLE ADDRESS IS : `ts.hadettheundying.com`
+#### DISCORD
+DISCORD LINK:http://hey.gayboi.icu
 
-MUMBLE IS OUR PRIMARY LINE OF COMMUNICATION. STAYING IN MUMBLE DURING YOUR DOWNTIME IS THE BEST WAY TO KNOW WHEN WE ARE DOING STUFF!
+DISCORD IS OUR PRIMARY LINE OF COMMUNICATION. STAYING IN DISCORD DURING YOUR DOWNTIME IS THE BEST WAY TO KNOW WHEN WE ARE DOING STUFF!
 
+We Also Have Mumble for when Discord goes down.
+
+MUMBLE ADDRESS IS : `forum.chaos.church`
+
+#### Conduct
+While our group is fairly light hearted and easy going, you are still expected to conduct   yourself in a way that does not misrepresent or harm the group's image. This applies to     internal and external issues.
+
+Specifically:
+
++ You must listen to commands given to you by those that outrank you unless they violate    the actual law or Second Life Terms of Service
++ You should not go out of your way to antagonize members of the group after they've asked  you to stop, there will be consequences for this. Jokes can go too far
++ If you are having an issue with a member of another group allow the enforcers to handle   it for you so that it does not become a future problem for Command to have to deal with     later.
++ This is not a dating group, keep your relationship drama out of group issues.
+
+If you are having issues with anyone you should contact an enforcer to handle it if trying to handle it on your own did not solve the issue. In the event you cannot attempt to solve the issue on your own for any reason, you are still encouraged to contact an enforcer.
 
 #### Activity:
 You are expected, upon joining, to take part in at least 3 raids ( attacks on other sims ) or defenses each week.
@@ -111,21 +126,21 @@ During Recruitment Ops, a mobile application dispenser will most likely be utili
 Command of any given situation is usually defaulted to the Overlord on duty. In the event that a ranking officer is not online, command is given to the highest ranking officer, or whoever takes charge in a situation. While you shouldn't step out of line when a chain of command is established, showing initiative in a time of need is never a bad thing.
 
 
-+ Uniform Standards:
+#### Uniform Standards:
 - You may customize your armor via tinting, However this must be approved by an Overlord.
 - You may add decorations and 'Trophies' to your armor as long as they fit the 'Chaos' Theme.
 - No form of furryshit including Nekos, Bronies and Japanese weeaboos.
 - You must be wearing boots. Leg modifications must be approved by an Overlord.
 - The Sororitas Armor by Heretech is allowed to be worn by female avatars, provided that an acceptable color is used.
 ( Direct link to this armor - https://marketplace.secondlife.com/stor ... ?id=161060)
--Though we'd much prefer you use the Female Vraksian Armor. (NO SPONGE!)
+- Though we'd much prefer you use the Female Vraksian Armor. (NO SPONGE!)
 
 Your Uniform is to be worn at all times whilst on duty. Misrepresentation of Chaos through your laxness is not acceptable. Furry avatars are NEVER allowed. He who allows the furry to live shares the guilt of it's existence.
 
 If you think your modification is extreme enough to warrant a second opinion, you probably have to ask an Overlord for approval.
 
 
-+ Unlocking Gear:
+### Unlocking Gear:
 Throughout your enlistment in Chaos, you will likely utilize different pieces of our armory. The higher the rank of the weapon, the higher the complexity, power, or utility.
 
 Gear in the armory may be unlocked in several ways:
