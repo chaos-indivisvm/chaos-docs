@@ -154,20 +154,23 @@ Practice driving the Leman Russ around the sim. Explain that tanks are a fundame
 #### Controls:
 {: .no_toc .text-delta }
 
++ On first attach, you will be presented with a popup menu of options and a list of commands in local. These can be accessed again by typing /1 menu and /1 vhelp respectively.
 + /1hp Sets how much health of what type you’ll deploy with
-+ /1 wep sets which hull mount you'll deploy with
++ /1 wep allows you to select which hull mount you'll deploy with. Selecting a new hull weapon will issue a temp attach request to the user. The user must accept the temp attachment in order to use the hull mount (or sponson).
   + Hull mounted weapons:
     + Heavy Bolter: Exactly like the one on the Chimera
     + Heavy Flamer: Ditto
-    + Lascannon (leave this blank until we know what it actually does):
+    + Lascannon: Bruh same
     + Autocannon (leave this blank until we know what it actually does):
     + Whatever the hell else Dread tech-heresies in here:
++ /1 sponsons will attach sponson turrets to either side of the tank, and allows you to select what they are. These are effectively 2 further hull-mounted weapons of your choice. This option WILL reduce the speed and turning rate of the vehicle.
++ /1 dozer will attach a bulldozer blade to the front of the vehicle. This will allow your vehicle rams to cause LBA damage (5 damage per tick) to whatever you strike and continue to push into. These also incur a speed and mobility penalty to the vehicle, which stacks with the sponson penalty.
 
 
-+ Left click to fire coaxial heavy stubber
-+ ‘E’ to fire hull-mounted heavy bolter
-+ ‘C’ to fire vanquisher cannon
-+ ‘1’ to select cannon shell
++ Left click to fire coaxial heavy stubber (where applicable) or main turret weapon for turrets that do not possess a co-ax.
++ ‘E’ to fire hull-mounted weapon
++ ‘C’ to fire main turret weapon on turrets that possess a coaxial stubber
++ ‘1’ to select cannon shell (if applicable)
   + HE operates similarly to a fragmentation rocket, and is used for anti-infantry.
   + AP delivers 50 AT to whatever it strikes, and 10 AT on a splash.
 
@@ -182,16 +185,47 @@ Have them get used to the controls and do a skirmish. Make sure they understand 
   + Primarily an anti-tank turret with high burst damage. Has no HE shells.
   + Vanquisher shells deal 80 AT per shot on a direct hit, 15 on a splash.
   + Beast hunter shells deal 35 AT on a direct hit and have no splash. Instead they deploy pools of bio-mutagenic acid (as the acid grenade). A shell that directly hits a scripted object with an NPC flag will instead deal 90 AT.
+  + Has a coaxial stubber.
 
 
 + Annihilator Turret:
     + Solely an anti-tank turret, as the only weaponry it has are twin-linked lascannons. Bring backup to deal with infantry or die a fool's death.
-    + Deals 35 AT per shot with the safety toggled on.
-    + Press 1 to turn the safety protocols off. With safety off, every shot will deal 45 damage and build 16 heat. At 100 heat, the tank will start dealing damage to itself. At 200 heat, the turret **will** shut down until heat falls below 100.
+    + Deals 25 AT per shot with the safety toggled on.
+    + Press 1 to turn the safety protocols off. With safety off, every shot will deal 35 damage and build 16 heat. At 100 heat, the tank will start dealing damage to itself. At 200 heat, the turret **will** shut down until heat falls below 100.
 
 
++ Exterminator Turret:
+    + Bearing a twin-linked autocannon, this is a hybrid anti-tank/anti-infantry turret with a lean towards anti-infantry.
+    + The autocannon rounds are exactly the same as those in the chimera, but fire at twice the RPM.
+    + This does not possess a coaxial stubber.
 
-#### Wyvern Suppression Tank (Unreleased, get Sam or Dread to demonstrate functions)
+
++ Demolisher Turret:
+    + This ponderous beast's role is the delivery of large-caliber rounds to the target indirectly. As such, it fires the same munitions as our heavy mortar at a fairly low velocity.
+    + Pressing F will toggle the round's muzzle velocity between 60 and 30m/s.
+    + Shell types:
+      + HE: 50 AT on direct hit, 25 on splash.
+      + Siege: 70 AT on direct hit, 40 on splash.
+      + Seismic: 50 AT on direct hit, 13 on splash. Stuns, slows, and deals partial damage to avatars through walls. Ask the OIC before you use this round type, as it tends to cause complaints.
+      + Breach: 40 AT on direct hit, no splash. Forms a temporary breach hole wherever it lands.
+    + With this turret in particular, due to the slower reload and low muzzle velocity, it is highly recommended to utilize the low velocity option and make good use of the minimap to indirectly bombard targets. With the right settings, shell impacts will show quite plainly on the minimap, making it easy to do with practice and talent.
+    + This turret possesses a coaxial stubber.
+
+
++ Executioner Turret:
+    + Equipped with the eponymous Executioner Plasma Cannon, this turret is essentially a straight upgrade from the battle cannon, and is priced accordingly.
+    + Left-clicking will fire the cannon, and holding left click will increase the charge of the blast up to 2 times.
+    + Each level of charge increases the size and AT of the resulting explosion, and carries with it an appropriate heat penalty.
+    + At 100 heat, the turret will begin to self-damage the tank at double the rate the annihilator turret self-damages. At 200, the turret will shut down until heat falls below 100. R initiates a purge, which will more rapidly vent heat until fully cooled. Mind your heat levels, or fry in your own armor.
+    + Charge levels:
+      + 1: 10 heat, 10 direct AT, 8 splash AT
+      + 2: 15 heat, 20 direct AT, 15 splash AT
+      + 3: 30 heat, 80 direct AT, 32 splash AT
+    + Pressing 1 will toggle rapid-fire mode, which will allow the user to hold left mouse to deliver small plasma blasts at a brisk rate of fire. These blasts build 4 heat, deal 5 direct AT, and 4 splash AT.
+    + Pressing 2 will toggle heat safety, which will cause the turret to automatically vent at 100 heat.
+
+
+#### Wyvern Suppression Tank
 {: .no_toc .text-delta }
 + Great for area denial.
 + Can move while shelling a marked location.
@@ -205,17 +239,16 @@ Have them get used to the controls and do a skirmish. Make sure they understand 
 + F to fire main turret at locked coords
 + R to reload
 + 2 to switch ammo types
-  + Stormshard: Airbursts and releases essentially a shotgun blast.
-  + Stormshard HE: It’s an HE mortar shell.
-+ 1 in alt-cam to lock coords
-+ C+left click while in mouselook also locks coords
-+ C clears the current coordinates
+  + Stormshard: Releases a high-volume payload of essentially oversized razorwire without a center of mass.
+  + HE: It’s an HE mortar shell.
+  + Shrapnel: Airbursts a bouncing shrapnel payload above the target.
+  + Scatter: Exactly what it says on the tin, a shell that airbursts and scatters exploding submunitions below it.
++ 1 in alt-cam or mouselook to lock coords
++ C direct-fires the cannons without mortar mouselook targeting. Be warned, though: Much like the hydra, you cannot fire below your chassis horizon.
 
-    Based closely on the Hydra design, the Wyvern exchanges the Hydras anti-aircraft cannons for a pair of twin-linked Stormshard Mortars. The Mortars unleash a torrent of airbursting shrapnel shells which shred enemy infantry.
+    Based closely on the Hydra design, the Wyvern exchanges the Hydra's anti-aircraft cannons for a pair of twin-linked Stormshard Mortars. The Mortars unleash a torrent of airbursting shrapnel shells which shred enemy infantry.
 
-    Wyvern (when it's released) is a burst-fire tank mortar of death. Use it to shell entrenched positions or lines of advancing forces, but otherwise treat it like a Hydra, except you can use it at high positions. Be mindful that if something is above you, hey guess what you're useless.
-
-    Aside from the HE shells, you have stormshards (airburst shotgun shells), airburst (scatter MIRV shells), razorwire shells, inferno shells, and krak shells.
+    The Wyvern is a burst-fire tank mortar of death. Use it to shell entrenched positions or lines of advancing forces, but otherwise treat it like a Hydra, except you can use it at high positions. Be mindful that if something is above you, hey guess what you're useless.
 
 
 #### The Vulture Gunship
@@ -671,7 +704,7 @@ IV. God Favor Weapons/Gear
 + 4 second reload per charge expended
 + Has a 1 second charge time before firing, hold left mouse button to charge, release to cancel
 + Deals 25 AT.
-+ Has an accuracy penalty if you move while firing.
++ This is HIGHLY RECOMMENDED as your first corruption purchase. The utility of large amounts of direct, uninterceptable AT CANNOT be overstated.
 
 ### Power Axe
 {: .no_toc .text-delta }
@@ -693,6 +726,29 @@ IV. God Favor Weapons/Gear
 
 
 + All turrets have: 100 HP, raycasted detection arcs that cover 180 degrees to the front of the turret’s current facing, and a 2 second warning klaxon before they open fire.
+
+### Artillery Radio Pack
+{: .no_toc .text-delta }
+
++ Corruption: 1500
++ Injects new buttons into the HUD, allowing us to deploy heavy mortar pieces.
+  + The Heavy Mortar fires the same shells (except breach shells) that the demolisher russ turret fires.
+  + The Thudd Gun fires 8 HE shells per magazine. It is good for saturation, but fairly inaccurate.
++ Both artillery pieces can be either manually fired or synced to the spotter's binoculars and radio pack for remote aiming and operation.
++ Spacebar syncs the radio pack with the nearest heavy artillery piece within a few meters. After syncing, spacebar will fire the linked artillery piece from anywhere in the same sim.
++ Both artillery pieces can be moved, provided two avatars sit on them.
++ Both artillery pieces can be towed with the Russ. Simply back up to the piece and press space to attach the towing cable.
+
+### Entrenchment Pack
+{: .no_toc .text-delta }
+
++ Corruption: 1000
++ Injects new buttons into the HUD, allowing us to deploy large walls and gun carriages.
++ Walls start at 200 LBA light, but can be over-repaired to turn into 400hp full LBA rockrete fuck-off walls.
++ Gun carriages are essentially 75hp sit barricades with pre-mounted heavy weapons, extended magazines for said weapons, a limited field of fire, and the ability to roll extremely slowly (and badly, do not take these over rough terrain).
++ Carriages may be over-repaired to entrench them, removing their ability to roll, but increasing their hp to 125.
++ Clicking and holding the carriage will attach a gun shield that increases a carriage's hp by 40, but cuts its field of fire in half. Extremely useful for holding long corridors.
++ Highly recommended as an early corruption purchase, especially for fellows inclined towards heavy support.
 
 ### Rigged Synaptic Disintegrator
 {: .no_toc .text-delta }
@@ -731,6 +787,23 @@ IV. God Favor Weapons/Gear
 + Rounds have a small splash AoE, and if they strike an avi will detonate shortly afterwards, dealing damage based on how many rounds hit.
 + 3 rounds to kill.
 
+### Splinter Cannon
+{: .no_toc .text-delta }
+
++ Corruption: 1000
++ Layer 1
++ As the splinter rifle, with less accuracy, added movement spread, and a larger magazine.
++ /1 autowalk will cycle between RLV settings, allowing you to automatically walk while firing, walk while zoomed, or turn autowalk off entirely. As you might surmise, walking slightly increases accuracy.
+
+### Splinter Pistol
+ {: .no_toc .text-delta }
+
+ + Corruption: 350
+ + Layer 2
+ + As the splinter rifle, but burst-fire.
+ + /1 burst will toggle a charged-shot mode, which builds more toxin levels in exchange for more ammo used per shot.
+ + Left-hand version available.
+
 ### Jammer Array
 {: .no_toc .text-delta }
 
@@ -746,6 +819,21 @@ IV. God Favor Weapons/Gear
 + Semi-automatic rifle with large rounds.
 + Bayonet available (/1 bayo)
 + Scope available (/1 scope). Increases accuracy, decreases spread recovery.
+
+### Stalker Bolt Rifle:
+{: .no_toc .text-delta }
+
++ Corruption: 1000
++ Layer 1
++ Semi-automatic bolter with 14 rounds
++ 1 and 2 to cycle round types
++ Round types:
+  + HE: Slightly larger explosion than a standard bolter
+  + Ignition: Less splash damage, lights people on fire for a time based on explosion proximity
+  + Shrapnel: Fires a directed shrapnel cone on contact with a surface (or when fuse distance is reached). Shrapnel expands perpendicular from struck surface.
+  + Acid: As other acid pools.
++ Pressing C while in mouselook locks in or clears a fuse distance. Rounds will then airburst once fuse distance is reached. Q and F decreases and increases the fuse distance respectively.
++ EXTREMELY USEFUL for clearing people off rooftops, especially if they are cheesing the structure of said rooftop.
 
 ### Escher Pattern Autocarbine
 {: .no_toc .text-delta }
@@ -765,6 +853,20 @@ IV. God Favor Weapons/Gear
 + As the Escher autocarbine, but with stock options as well as normal underslung equipment.
 + Does not have 100rnd extended mag or suppressor options.
 
+### Havoc Launcher
+{: .no_toc .text-delta }
+
++ Corruption: 700
++ Layer 3
++ A multi-shot rocket launcher, the havoc launcher provides more direct-fire capabilities than the grenade launcher, and an (obviously) larger magazine than the Accatran rocket launcher, while sacrificing some payload yield.
++ 1 and 2 cycle back and forth between rocket types
++ F breech loads a shell
++ Has the same custom magazine programming and reload controls as the Accatran pump shotgun.
++ Shell Types:
+  + Frag: Standard 5m explosion, does 5 AT on hit or splash.
+  + Krak: Inert Krak dart, no explosion, 9 AT on hit.
+  + Flash: Flashbang rocket, does not stun, 4 AT on hit.
+  + Splitter: Chaff dummy munition, deals 4 AT on hit, then splits into 5 chaff clouds.
 
 ---
 ## S8, IV. God Favor Equipment
@@ -858,6 +960,16 @@ IV. God Favor Weapons/Gear
 + Low HP, use its speed to avoid incoming fire.
 + Unarmed, though riders may use **any** infantry weapon while on the disk. Flamers are both an effective and appropriate choice. Harvest the tears of Tzeentch's foes well, my child.
 + Hold W and S at the same time for a short burst of additional speed.
+
+### Rubric Bolter
+{: .no_toc .text-delta }
+
++ Tzeentch Favor: 4
++ Layer 1
++ A slow-firing bolter that fires ignition rounds, much like the stalker bolter.
++ Ignited foes that die, or direct-hit kills explode
++ Reload time scales with ammo used.
+
 
 ### Slanesh and Undivided
 {: .no_toc .text-delta }
