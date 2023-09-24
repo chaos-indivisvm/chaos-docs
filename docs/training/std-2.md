@@ -53,10 +53,12 @@ All Training to be done on ground level of sim. This is so they get used to how 
 
 + Take the initiative and VOLUNTEER to deploy vehicles when there is a need for one!
  + The worst an OIC will do is say "No."
+ + OICs will often issue corruption incentives to people who are the first to volunteer when a vehicle is called for, but this is not guaranteed.
 
 
 + If you are out in/on a vehicle and you are told to get off you GET THE FUCK OFF AND YOU GET THE FUCK OFF NOW.
   + Do it now, ask questions AFTER the raid. Period.
+  + Often this means we have agreed to de-escalate with the enemy OIC. If you make your OIC out to be a fool or a liar by arguing or showing your ass, you will be dealt with according to the manner in which you have chosen to act.
 
 
 + RLV recommended. Quickly deploys vehicles. [Explain how to set up RLV and instruct Renegade to relog.]
@@ -67,26 +69,36 @@ All Training to be done on ground level of sim. This is so they get used to how 
 {: .no_toc .text-delta }
 
 + Each tank has a “hull” and a “turret” section. All tanks in the group will be deployed using one turret and one hull.
++ Upon first attach, a menu will be displayed with several options, and some help text will print out in local chat. From here, you can access various settings. This menu is also accessible with /1 menu in local.
 
 ### Modes & Basic Controls
 {: .no_toc .text-delta }
 
-+ Modes (/1 hp)
-  + LBAL 100 and 200hp
-    + LBA Light mode. LBA Light takes damage from bullets and things that hit it hard.
-
-  + LBA 100 and 200hp
-    + Full LBA mode, damage only from LBA weapons.
-    + Like deployables, damage is near-instant.
++ HP selection (also through /1 hp)
 
 
-+ Note that the Chimera will DEFAULT to LBA. Some sims only allow LBA-Light
- + Always check with the OIC.
++ LBA 150, 175, and 200hp
+  + Full LBA mode, damage only from LBA weapons.
+  + Like deployables, damage is near-instant.
+
+
++ LBAD 150, 175, and 200hp
+  + As LBA, however, LBAD takes reduced damage on strikes to the front, and increased damage on strikes to the rear and bottom.
+
+
++ Always check with the OIC to determine what HP values they want vehicles set to.
+
+
++ Movelock: Type /1 movelock in local to engage this feature. This will freeze the sitbase of the vehicle, and cause the hitbox to become a static object while you are not moving. This is moderately useful to prevent unwanted movement, as so many scripters are still incompetent when it comes to making munitions that do not grief vehicles around.
+
+
++ Auto-flip: If you happen to find yourself flipped over, simply wait a few moments and the vehicle will right itself. Alternatively, you can press A+D to manually trigger this function.
+
 
 ### Rezzing the Sitbase
 {: .no_toc .text-delta }
 
-+ Rez sitbase with /1 rez ('~' with Chaos gesture).
++ Rez sitbase with /1 rez ('~' with Chaos gesture), or through the pop-up menu on first attach, or accessed with /1 menu
 + /1 hp to set HP and know which one to choose appropriately
  + Match up to enemy tank's HP, or as instructed by OIC.
    + 200 is usually fine though.
@@ -106,12 +118,16 @@ All Training to be done on ground level of sim. This is so they get used to how 
 
 + Hull mounts can only fire in a limited angle in front of the vehicle, but are unconstrained vertically.
 
++ When you select a hull mount, or if you deploy with the default hull mount, you will receive a request to temp attach that weapon. You must accept the request for that weapon to be usable.
+
 + You may fire the turret and a hull mount at the same time. A hull mount will continue firing even if your camera rotates past its arc limit, allowing you to lay down 2 lanes of fire in radically different directions.
 
 + The currently available hull mounts are:
  + Heavy bolter: Exactly what it says on the tin. Performs like an infantry-carried, constantly-deployed heavy bolter with infinite ammo.
 
  + Heavy Flamer: Like a flamethrower that shoots further. Deals 1 LBA per shot, fire pools deal 1 LBA per second. The weapon of choice for armor engagements or close-range suppression.
+
+ + Lascannon: As the infantry-carried lascannon, deals 25 AT per shot. Poor at infantry suppression.
 
 ### Deployment
 {: .no_toc .text-delta }
@@ -134,7 +150,9 @@ All Training to be done on ground level of sim. This is so they get used to how 
 
  + Stick around the spawn for at least 20 seconds if not under fire to collect passengers/gunners. Ask for gunners first as they have greater visibility/versatility. YOU ARE ALWAYS MORE EFFECTIVE AS A TEAM.
 
-+ AS INFANTRY PASSENGERS, you are allowed to shoot out from your passenger positions to assist in clearing areas and objectives. Do not use raycast weapons to fire out of the chimera, as you will hit the driver.
+ + Alternatively, typing /1 beacon in local within a few meters of your deployment zone will allow you to place a teleport beacon. Users sitting on the beacon will be teleported immediately to an empty passenger seat. The beacon can do this 6 times before it requires recharging. The chimera recharges the beacon by moving to within a few meters of it.
+
++ AS INFANTRY PASSENGERS, you are allowed to shoot out from your passenger positions to assist in clearing areas and objectives. Do not use raycast weapons to fire out of the chimera, as you will hit the vehicle you are riding in.
 
 ### Movement
 {: .no_toc .text-delta }
@@ -159,6 +177,7 @@ All Training to be done on ground level of sim. This is so they get used to how 
  + The rear of the Chimera generally is not lethal to collide into because people come out of it when it is being used as a transport.
 
 + If your tank is flipped somehow and unable to move, you may, if possible:
+ + Activate the auto-flip function (this is the most reliable option).
  + Request infantry to help flip you by rezzing deployables beneath you (barricades and tank traps work best).
  + Request other tanks to help flip you by physically pushing your vehicle.
  + Attempt to rez your own deployable under your tank to flip yourself back up
@@ -184,28 +203,26 @@ All Training to be done on ground level of sim. This is so they get used to how 
 + Autocannon Turret
  + Fires at a decent ROF with two round types, HE and AP.
    + HE has a wider explosion radius, ideal for infantry.
-   + AP deals 5 AT per shot, 4 on a splash.
-   + HE deals 3 AT on either a direct hit or splash.
+   + AP deals 7 AT per shot, 5 on a splash.
+   + HE deals 3 AT on a direct hit.
+   + "Alter" Fires an alternating belt of HE and AP rounds.
    + Rounds have a chance to ignite scripted objects.
  + Switch rounds with "1" key.
  + Decent for fighting light vehicles if you can take advantage of the Chimera's speed, but generally not a great anti-infantry choice.
- + Ammo type is NOT saved on death.
 
 
 + Bolter Turret
  + A rapid-fire twin-linked heavy bolter.
  + Acts like the hull-mounted bolter, except it fires in every direction and fires two rounds per mouse-click.
  + Has a reload feature:
-   + You are encouraged to fire in quick bursts rather than engage in prolonged suppression, otherwise, you will be unable to fire and will have to await the turret to cycle between magazines.
+   + You are encouraged to fire in short bursts rather than engage in prolonged suppression, otherwise, you will be unable to fire and will have to await the turret to reload the magazine.
  + No AT, only explosions.
  + Decent for quick bursts of suppression or can simply act as a bullet hose tank.
  + HIGHEST DAMAGE OUTPUT IN THE ARMORY for non-LBA armor.
 
 
 + Multi-Las Turret
- + Fires laser beams very quickly.
- + It is a raycast weapon, but should still deal AT damage
-   + But NOT LBA damage!!!!
+ + Raycast machinegun. Delivers 1 AT per shot.
  + Useful for pinpoint shooting if you're a good shot on the move, and fires the shots rather rapidly.
  + Unlike Heavy Bolter, no reloading.
  + Has a lot of spread if you don’t control yourself.
@@ -245,13 +262,17 @@ All Training to be done on ground level of sim. This is so they get used to how 
 
 + The Hydra Flak Tank specializes in ground to air combat. It will fill the skies with highly explosive flak to take down both armoured and unarmoured flying vehicles. It is NOT group safe, so be mindful when firing into the skies, make sure there are no friendly air unit engaging enemy air vehicles before unloading payload.
 
++ It will also shred tall vehicles, mechs in particular, but do not expect to last very long if you go toe-to-toe with one, as heavier mechs are generally balanced to be as strong as MBTs, which you are most definitely not.
+
 + The chassis is exactly that of the Chimera, so it drives the same way, front heavy bolters included for defense should ground units attempt to engage you. The bolter is defensive, so stay behind something and make sure your front is facing the vector you are most likely to get shot at from.
 
 + It can be also be used against ground infantry (acts as explosive rounds rather than flak below certain height ceiling). However, the Hydra cannot fire below its chassis horizon, so be mindful of your angle of elevation to ensure continuous delivery of flak/explosive barrage. That means the Hydra is best used at low elevations, higher ground will gimp its horizon.
 
++ Alternatively, you can artificially lower your chassis horizon by parking on a ramp of some kind, or even halfway onto a slightly higher platform. If your ass is in the air, it means your front is open for business, and vice-versa.
+
 + Hold C (or some other control input) whilst firing to achieve max firerate. This is caused by a bug in SL.
 
-+ If the driver asks you to get out of the hatch because your ass is in his face, kindly do so.
++ If the driver asks you to get out of the hatch because your ass is in his face, kindly do so. Alternatively, if you are the driver, temporarily derendering the hatch gunner is probably a better idea.
 
 
 ## S3, III, P2. The Tauros Venator
@@ -287,11 +308,14 @@ All Training to be done on ground level of sim. This is so they get used to how 
 
 + Flight in the SLMC requires good framerates, meaning you need a decent computer, to be on a good sim, and to roll lucky with Linden Lab that day.
 
++ Note: As stated, not everyone has a good enough computer to handle air combat. Of those, some may not have any desire to perform air combat. IT IS PERMISSIBLE to allow the trainee to skip UNARMORED plane training. However, this MUST be marked on their tracker, and they are FORBIDDEN to deploy unarmored planes during combat operations. ARMORED aircraft training, including battlefleet training, must still be completed.
+
 ### Uses/Roles
 {: .no_toc .text-delta }
 
-+ It is not a dogfighting plane, it is to be used for anti-fleetship, anti-tank, anti-deployable, and anti-infantry use
-+ Use the Avenger as a reaction to enemy escalation, not as an escalation in of itself.
++ It is not a dogfighting plane, it is to be used for anti-fleetship, anti-tank, anti-deployable, and anti-infantry use.
++ Note that it is not hopeless vs. dedicated interception craft, so long as you do not intend to kill your pursuers. For those skilled enough, focusing on evasive flying while STILL maintaining good effect on ground targets or armored aircraft, can be a highly effective tactic.
++ Use the Avenger as a reaction to enemy escalation, not as an escalation in and of itself.
  + For example, is a fleetship deployed? React w/ Avenger.
 
 
@@ -366,20 +390,17 @@ All Training to be done on ground level of sim. This is so they get used to how 
 ### Live Fire Test
 {: .no_toc .text-delta }
 
-+ YOU MUST ELIMINATE A LEMAN RUSS 5 TIMES AT 400 HP EACH. YOU WILL FAIL THE TEST IF THE FOLLOWING HAPPENS.
- + You obviously lose control 3 times
-   + For instance, if you get stuck in an obstacle or start flipping/doing doughnuts.
- + You give up.
++ THEY MUST ELIMINATE A LEMAN RUSS TWICE AT 400 HP EACH. THEY WILL FAIL THE TEST IF THE FOLLOWING HAPPENS:
+ + They obviously lose control 3 times
+   + For instance, if they get stuck in an obstacle or start flipping/doing doughnuts.
+ + They give up.
+
+
++ During the test, the trainee MUST hit the FIRST Leman Russ with each AT-capable munition, including at least one direct hit with a torpedo. It is recommended to sit still with the first Russ. For the second, start firing back with the coaxial stubber, as well as performing evasive maneuvers.
 
 
 + If they fail, it's up to you as to their punishment.
- + Recommended to make them restart the test from the beginning, or simply wait until the next day.
-
-
-+ Bonus points if they use the concussive torpedo effectively.
-+ Suggestion
- + Have them hit the tank 2 or 3 times with the HE bombs, Bolt Cannon, Hunter-Killer, and Conc Torp.
-    Mastering your vehicle is the key to success, and as such, you must know how to use your munitions effectively.
+  + Recommended to make them restart the test from the beginning, or simply wait until the next day.
 
 
 + OPTIONAL: Create your own knowledge checkpoint like the one from S2, III, P7. For instance, perhaps challenge them to fight a Chimera on foot? Kill a fleetship with the Avenger? Build on the knowledge of before and what the Renegade has struggled on.
@@ -410,13 +431,13 @@ II. Advanced Infantry Equipment
 
 + In Chaos, there are a couple different major doctrines we rely on, that more than a few of us end up falling into. The nuances of how you play are ultimately up to you, but you may want to consider the tactical applications of these doctrines when determining your overall strategy on the field, or how to utilize the men and women available to you when leading a raid. These two doctrines are "Fast Assault" and "Heavy Support".
 
-+ The Heavy Support Doctrine relies on heavy vehicles, explosives, and suppressing fire to maintain pressure, secure, and **fortify** positions. Acting in the Heavy Support role is not just about your gear, it is about the mentality you’re in when you enter the fight. This is not limited to being "In the rear with the gear", so to speak (otherwise we'd never gain ground), but performing a slow, grinding advance of heavily fortified and entrenched positions until the enemy has no ground left to even bury their dead is a powerful way to play.
++ The Heavy Support Doctrine relies on heavy vehicles, explosives, and suppressing fire to maintain pressure, secure, and **fortify** positions. Acting in the Heavy Support role is not just about your gear, it is about the mentality you’re in when you enter the fight. This is not limited to being "In the rear with the gear", so to speak (otherwise we'd never gain ground), but performing a slow, grinding advance of heavily fortified and entrenched positions until the enemy has no ground left is a powerful way to play.
 
-+ Conversely, the Fast Assault Doctrine relies on quick, decisive strikes at key locations, rolling in and deploying entire squads with the Chimera or Valkyrie, harassing heavily armored vehicles with hit-and-run tactics, skirmishing with enemy infantry to clear them from their own positions, all to gain that initial chink in the enemy's armor for Heavy Support to fully exploit. If Fast Assault is the hammer, and Heavy Support is the anvil, then the enemy is fucked.
++ Conversely, the Fast Assault Doctrine relies on quick, decisive strikes at key locations, rolling in and deploying entire squads with the Chimera or Valkyrie, harassing heavily armored vehicles with hit-and-run tactics, skirmishing with enemy infantry to clear them from their own positions, all to gain that initial chink in the enemy's armor for Heavy Support to fully exploit.
 
 + If you do decide to adopt one of these doctrines (which is again highly recommended), then above all, remember to **be flexible**. If we only have people doing Heavy Support things, for instance, playing passively is not going to get us anywhere. Clear an area and put a warp gate behind cover, seek and destroy enemy artillery: do not get stuck in one way of fighting.
 
-+ Further to the last point, remember that teamwork makes the dream work. If you are showboating in melee or something while all the friendlies around you are dying and an entire push is being blunted, while that's cool and all, very impressive, you soon won't have any buddies covering your ass, will get flanked, ganged up on, and end up on the next video from BLACKED.com and probably not in the way you'd like. Or maybe you would. Either way, support your team.
++ Further to the last point, remember that teamwork makes the dream work. If you are showboating in melee or something while all the friendlies around you are dying and an entire push is being blunted, while that's cool and all, very impressive, you soon won't have any buddies covering your ass. You will get flanked, you will be ganged up on, and you will be swiftly eliminated. Do not shame the group, your corruptor, or yourself in this manner. Support your team.
 
 ### Re-iterate use of deployables in HUD
 {: .no_toc .text-delta }
@@ -432,7 +453,7 @@ II. Advanced Infantry Equipment
 {: .no_toc .text-delta }
 
 + Specifically, how Heavy Support is more easily able to seeker-rocket aircraft from the backline and how repairing deployables can be more useful than asking someone to replace them, or having them remember to replace them on death.
-+ Use a repair tool to assist Mechanicus when possible. Fix barricades, turrets, and generators. The turrets need someone there to reload them, so be a good boy.
++ Use a repair tool to assist Mechanicus when possible. Fix barricades, turrets, and generators. The turrets in particular reload faster when that function is triggered manually, so be a good boy.
 
 ### Deployment Tactics
 {: .no_toc .text-delta }
@@ -476,7 +497,6 @@ II. Advanced Infantry Equipment
  + Explain to them the difference between the armored and unarmored version of the bike and to not use the unarmored version.
  + After that explain all the different lances (Explain the ones that are currently out).
  + Finally explain the main tactics of using the bike for Interception, Distraction, and Spearheading.
- + Yell at Dread to update the Assault Bike. Do not stop yelling at him even if he gets mad and yells at you
 
 #### Movement & Controls
 {: .no_toc .text-delta }
@@ -512,7 +532,7 @@ II. Advanced Infantry Equipment
 
 + Lances
  + Make sure your other weapons are put away (set 4)
- + Simply attach the lance, left click in mouselook to throw
+ + Simply attach the lance, left click in mouselook to throw, or hold to have it auto-throw if an object or surface comes into range.
  + Lance will “reload” after a few seconds
 
 
@@ -561,6 +581,9 @@ II. Advanced Infantry Equipment
  + It also does damage to everyone if you hover over them at 7 meters or less.
    + Which is ~~funny sometimes~~ absolutely hilarious, every time.
 
+
++ Update: The hellblade no longer has backblast damage because Dread hates fun or something.
+
 ### Basic Controls and Commands
 {: .no_toc .text-delta }
 
@@ -570,8 +593,12 @@ II. Advanced Infantry Equipment
 
 + /1 reset: Forces a script restart.
 + 1: Toggles between the three missile munition types.
-+ 2: Fires flares! You have 4 flares before they have to reload.
++ 2: Fires flares! You have 4 flares before they have to reload, at 4 seconds per flare expended.
 + F: If using a seeking missile, activates the detection sweep to lock on, and then fires once locked on. Otherwise, fires your munition.
++ R: Reload munitions.
++ Shift+1: Activate soft-lock missile. This will automatically seek out and attempt to destroy the nearest aircraft that passes within a certain radius of the warhead. Notably, this can cross sim borders, and is only usable on multi-sim combat fields as the seeking method arguably would render the classic AA missile obsolete.
++ Shift+2: Reload flares only.
++ Q: Hotswap back to flakk missiles.
 
 ### Movement
 {: .no_toc .text-delta }
@@ -613,7 +640,7 @@ II. Advanced Infantry Equipment
    + Cancel lock on by pressing F
    + 4 rounds in the magazine.
   + Concussive Torpedo
-   + Air to Ground bomb, 80 AT, 10 Meters
+   + Air to Ground bomb, 80 AT on direct hit, 20 on splash, 10m radius
    + 2 rounds in the magazine.
 
 ### Hellblade Duel

@@ -203,8 +203,10 @@ VIII. Grav Chute Training Assessment
     * RAYCAST IS CHEAT.
     * Raycast is similar to a sensor script in a way. Rather than being a radius around an object detecting avatars, it is an object that CASTS A BEAM, OR A RAY RATHER, that senses avatars that are in said beam. The beam detects the avatar and rezzes a kill prim on them.
     * All raycast are intersim, except for the laspistol.
-    * Less target leading is required compared to normal guns, so readjust as necessary (aim approximately one body length ahead of a target running laterally across your screen)
-    * Raycast performance is impacted severely by sim lag, so you may be required to switch to normal physical bullet guns.
+    * Less target leading is required compared to normal guns, so readjust as necessary.
+      + A good rule of thumb is to aim approximately one body length ahead of a target running laterally across your screen.
+      + This is very dependent on client latency. Users are encouraged to practice until they find the 'sweet spot' appropriate for their needs.
+    * Raycast performance is impacted severely by sim lag, so you may be required to switch to normal physical bullet guns. You will know if raycast is failing when the weapon reports a killing shot, but fails to kill the target.
 
 ## S2, II. Renegade Weapon/Equipment Types
 
@@ -214,7 +216,7 @@ VIII. Grav Chute Training Assessment
     * Basic Chaos Rifle
     * SECONDARY ATTACHMENTS! : Hold 'C' and left mouse click to fire. Can fire bullets and reload after shooting, but attachments resume reload after stopping, not during.
     * Grenade launcher (/1 gl) - Fires an explosive round at a small arc.
-    * Shotgun - Fires 2 bursts of buckshot. Buckshot does partial damage. Also has explosive slug rounds available through /1 slug.
+    * Shotgun - Fires a burst of buckshot. Buckshot does partial damage. Also has explosive slug rounds available through /1 slug.
     * Bayonet (/1 bayo) - 5m melee with 'C'. Smaller arc than swords. Collects skulls. Skulls can be turned in for corruption (explained in Section 2, V.)
     * Alternate 60 round drum mag available (/1 mag).
 
@@ -222,12 +224,12 @@ VIII. Grav Chute Training Assessment
 + Graia Pattern Autogun
     * As the Agripinaa Autogun, possessing the same attachments and commands.
     * Larger bullets
-    * More accurate
+    * More accurate for the first few shots
     * Much slower firerate
 
 
 + Accatran Pattern Shotgun
-    * A decent close-mid range weapon. Fires raycasted sensor cones of buckshot, reloads each shot individually
+    * A decent close-mid range weapon. Fires raycasted "pellets" in a cone pattern, and reloads each shot individually
     + Controls:
       + 1 and 2 to cycle shell types.
       + F to "breech load" a single shot of the selected shell type. This will be fired the next time you shoot.
@@ -237,21 +239,20 @@ VIII. Grav Chute Training Assessment
       + /1 save1, /1 save2, and /1 save3 will save your current custom magazine to one of three save slots.
       + /1 load1, /1 load2, and /1 load3 will load saved custom magazines.
     + Shell Types:
-      + Buckshot: Standard fare damage-dealing shells. Kills out to 40m and wounds out to 65m. They deliver up to 8 AT to LBA light and up to 4 AT to full LBA.
+      + Buckshot: Standard fare damage-dealing shells. 10 pellets, kills out to 30m and wounds out to 75m. Each pellet delivers 1 AT to LBA light.
       + Heavy Bolt Slug: Your only long-range option. Fires a physical explosive slug that kills within a 3m radius, and wounds within a 6m radius of the explosion. Deals 6 AT regardless of type.
-      + Inferno Blast: A shorter-range option for both delivering AT and securing infantry kills. Fires pellets that ignite on contact with air. Kills within 30m and wounds within 50m. Shells also have a chance to ignite avatars, dealing damage over time based on the damage they initially took. Deals 12 AT to LBA light and 6 AT to full LBA.
+      + Inferno Blast: A shorter-range option for both delivering AT and securing infantry kills. Fires 6 pellets that ignite on contact with air. Kills within 30m and wounds within 55m. Shells also have a chance to ignite avatars, dealing damage over time based on the damage they initially took. Pellets deal 3 AT to LBA light and 2 AT to full LBA.
       + Flak: Fires four physical flak flechettes that detonate when within 5m of an airborne target. This has a height check of 20m above the nearest surface for unseated avis and 5m above the nearest surface for vehicles. The flechette **will not detonate** on a target below these heights. Delivers 1 AT.
       + Acid: Fires four physical blobs of mutagenic acid that will bounce once before sticking and forming a pool. Acid deals 12% damage per half-second to avis, and 5 AT per half-second to scripted objects with an NPC flag. Any amount of AT from sources **other than shotgun shells** will clear a pool of acid. For the shotgun it takes at least 4 AT to a pool to clear it. This is so you don't accidentally clear your own pools as soon as you make them.
       + Sunspot Flash: A shell primarily designed to hinder and disable, rather than kill. When fired, anyone within 30m and looking at the shooter will be blinded. This effect extends with lesser effect out to 65m. The shell kills within 28m, but only wounds out to 30m. It deals no AT.
     * Each shot does damage based on where the target is in relation to your crosshair. It does more damage the closer a target is both in range and towards the center of your crosshair.
-    * The damage falls off to 0 at 65m with regular buckshot regardless of how well the shot is lined up.
+    * The damage falls off to 0 at 75m with regular buckshot regardless of how well the shot is lined up.
     * Semi-auto/pump action(kinda)
     * Take note of how the shotgun can be fired in the middle of a reload, because the shells are reloaded individually.
 
 
 + Kantrael Pattern Lasgun
     * Modes: Full, semi and auto.
-    * Raycast (/1 rc) and Non-raycast (/1 solid)
     * Damage Falls off at Range. Does less damage the further away the person is.
     * Possesses the same attachments as the  autogun (except for the larger mag option) with the same commands for each.
     * Has heat haze like the longlas. The total "Kill footprint," or area that becomes dangerous when you fire, is a 0.25m thick plus-shaped beam, if anyone asks.
@@ -287,13 +288,13 @@ VIII. Grav Chute Training Assessment
 + Graia Pattern Stub Pistol
     * Semi-auto physical bullet pistol.
     * Large bullets.
-    * Extended mag available with /1 mag.
-    * Burst-fire available with /1 burst.
-    * Suppressor available with /1 supp. Lowers bullet size speed, and visibility.
+    * Wargear options:
+      * Extended mag available with /1 mag.
+      * Burst-fire available with /1 burst.
+      * Suppressor available with /1 supp. Lowers bullet size speed, and visibility.
 
 
 + Kantrael Pattern Laspistol
-    * Toggle Physical and Raycast (/1 fm)
     * One-handed
     * Damage Falls off at Range. Does less damage the further away the person is.
     * Has heat haze like the longlas
@@ -319,6 +320,20 @@ VIII. Grav Chute Training Assessment
 + Heretic's Cleaver
     * Basic bitch 5m melee.
 
+
++ Spotter's Binoculars
+    * 2m range melee on C
+    * Holding C while alt-camming a location or in mouselook will target a synced heavy artillery piece to the sighted coordinates
+    * Q syncs the binoculars to a heavy artillery piece within a few meters.
+
+
++ Orlock Omni-wrench
+    * Hybrid melee/repair tool
+    * 5m melee on C
+    * Q switches between repair and melee mode
+    * Repairs at a slower rate than normal repair tool
+
+
 ### S2, II. P3. Layer 3 Weapons
 
 + Rocket launcher
@@ -331,7 +346,7 @@ VIII. Grav Chute Training Assessment
 
         * Krak
             * Krak explosion, mine, deployable, and vehicle killing rocket, very slight drop off
-            * Deals 45 AT on direct hit, 25 on splash
+            * Deals 35 AT on direct hit, 25 on splash
             * AT radius is approximately 7m. Avi damage radius begins falling off at 4m and falls to 0 damage at 6m.
 
         * Flakk
@@ -431,17 +446,17 @@ VIII. Grav Chute Training Assessment
         * Partial Damage to avatars and seated armored targets such as barricades/sandbags, tanks, manned turrets, and sit barricades.
         * Also falls down if detonated in midair.
         * If it detonates against a wall or in the air, it makes MORE fire for airbursting "fun!"
-        * For non-seated armor, only the initial fire in the center will do AT- there are BETTER options for teleporters.
 
     * Razorwire
         * Spits wooden stakes everywhere and then connects them to the point of detonation with razor wire.
         * If collided into, it does partial damage.
-        * Use it to lock down areas, or throw it in the air and detonate it to see the chains disrupt jumping enemies.
-        * Shoot chains or stakes to remove.
+        * Use it to lock down areas, or throw it in the air and detonate it to see the wires disrupt jumping enemies.
+        * Shoot wires or stakes to remove.
+        * If airbursted, the center of the wire mass will slowly fall to the ground. Avatars in contact with falling wires receive massively increased damage.
 
     * Krak
         * 6m detection for scripted objects
-        * Mine-clearing and 15 AT delivery
+        * Mine-clearing and 25 AT delivery
         * 3m detection for avatars
         * Can throw further than most other grenades
         * Good medium range anti-armor.
@@ -545,9 +560,8 @@ VIII. Grav Chute Training Assessment
 
     * Immolation Grenade
         * Second Tzeentch Favour grenade, unlocked at 3 Tzeentch favour.
-        * Produces a medium-sized gas cloud, which may be detonated by any fire pools or explosions.
+        * Produces a medium-sized gas cloud, which may be detonated by any fire pools or explosions, or manually detonated with 'Z'.
         * Ignites anyone within the cloud at the time.
-        * Kinda useless and uninspired.
 
     * Slaanesh Torment
         * Flashbangs (with SCREAMING!) and traps avatars with daemonic chains.
@@ -555,7 +569,6 @@ VIII. Grav Chute Training Assessment
         * Good for securing melee kills or stopping an advance.
         * Deals 10 avi damage if they move around while trapped.
         * Note that people walking into the radius while it is active will also be trapped.
-        * Can be shot to end its effect early.
 
     * Stimm Gas Grenade
         * Second Slaanesh favour grenade, unlocked at 3 points of favour.
@@ -569,7 +582,7 @@ VIII. Grav Chute Training Assessment
         * Infects avatars and spreads upon contact with other avatars. Upon spreading to another avatar, the stage or "gen" advances by 1. (Gens 1- 4)
         * The higher the Gen, the quicker it kills them.
         * Gen 3 turns them into a resurrectable zombie corpse
-        * Gen 4 turns them into a zombie on death.
+        * Gen 4 turns them into a fully-reanimated zombie on death.
         * If infected by your own infection, it will not kill you, but will do 3 damage per tick, meaning you won't heal over time
         * Will kill friendlies.
         * Zombies are hostile to everyone who is not Nurgle Favor 6 or higher (favor explained later in Section 2, V.)
@@ -776,6 +789,9 @@ VIII. Grav Chute Training Assessment
     * /1 c:[message] for everyone within the sim with the HUD to read
     * DO NOT clutter comms, only use for relevant information during combat
 
++ Blood safety
+    * By typing /1 blood , users can render any blood puddles produced by their weapons or grenades safe to walk on by anyone. This is useful in sims where semi-permanent damage pools are forbidden.
+
 
 + Cleanup
     * /1 cleanup OR advanced HUD menu > clean up.
@@ -831,6 +847,7 @@ VIII. Grav Chute Training Assessment
     * Manual Corruption Transfer command
     * Toggle between new/classic deployment system.
     * Let them know to use classic deployment for high-lag situations.
+    * Set Groups: Use this to manually add group UUIDs to HUD protection. Avatars with that group active will no longer trigger your mines or interception systems, and will be able to use your warpgates, gun carriages, and sit barricades until you sign out of SL. This is used when we're fighting alongside another group that is not using our militia tag/gear.
     * Swap Grenades: To use, press the button, choose whether you want to swap a main or alternate grenade, then press the number associated with the grenade button you wish to swap. 1-4 for the top row, 5-8 for the bottom row. The HUD will then list every grenade along with an associated number, and present a dialog box. Enter the desired grenade's number into the dialog box and press 'submit'. Grenade swaps persist across logins, so feel free to have your favorite grenades more conveniently accessible!
 
 
@@ -901,7 +918,7 @@ VIII. Grav Chute Training Assessment
     * If you are the OIC, Clears all set waypoints.
     * If you are not, clears only your waypoints.
 
-## S2, V. Corruption & God Favor
+## S2, V. Corruption, God Favor, & Wargear
 
 + Corruption points grant weapon/equipment/ability unlocks by pledging Renegades to specific god(s).
 
@@ -931,6 +948,12 @@ VIII. Grav Chute Training Assessment
     * The altar will always alert you if the purchase you're about to make will result in lost points from another god so don't worry about going TOO in depth with this.
 
 
++ Wargear
+    * Certain weapons may have access to additional attachments, firing modes, or munition types available for purchase through the wargear system.
+    * By clicking on a weapon, gear, or vehicle box, users may see a button in the menu labeled "Wargear". Clicking this button will lead to another menu with available wargear for purchase with corruption. The prices for said gear will be printed out in local chat.
+    * Users can purchase said wargear by clicking on the appropriate button, and having enough corruption in their account, at which point they will need to detach the related weapon or vehicle (if currently attached) and reattach it in order for the script to reinitialize.
+
+
 + OPTIONAL
     * Show them current deity-specific weapons (if you have access) available for them to decide later.
 
@@ -940,6 +963,9 @@ VIII. Grav Chute Training Assessment
 
 + HIGHLIGHT THE USE OF MINIMAPS to determine enemy positions.
     * Teach them about marking targets and using contact sets (if using Firestorm)
+
+
++ Pick ONE of these to do:
 
 
 + Grenades Only Duel
@@ -964,7 +990,7 @@ VIII. Grav Chute Training Assessment
     * Have them use the Corruption Altar to deposit any skulls when they’re done.
 
 
-+ Defensive/Offensive Drill
++ Defensive/Offensive Drill (Optional)
     * Tell the trainee to pick a building in the sim.
     * Give them 2 minutes of unmolested time to fortify their location as much as possible, including warpgates.
     * They must stay within this general area, but can continue to fortify during combat.
@@ -986,14 +1012,13 @@ VIII. Grav Chute Training Assessment
     * The goal is to get to the bottom of the pit without dying and only falling straight down WITHOUT the grapple or other means other than the grav chute.
     * If the course is unavailable, fly up very high in the valkyrie and do not stop practicing with the grav-chute until the Renegade can stop hard falling
 
-## S2, VIII. Infantry Mortar - All eyes on the Ground
+## S2, VIII. Infantry Mortar - All Eyes On Ground
 
 + Strategy/Etiquette
     * Always ask to be on a mortar.
         * It is not a force multiplier in every situation.
         * One person on a mortar means one less person is taking objectives or fighting
-    * Never fire and forget.
-        * Confirm your kills and call into comms when its something important like a teleporter
+    * Never fire and forget. Note this does NOT mean to get tunnel-visioned on your target, but instead simply pay attention to things you destroy, and call into comms when its something important like a teleporter.
     * ALWAYS pay attention to comm callouts for specific objectives to be taken down by mortar
         * Teleporters, deployables, etc.
         * Do not tunnel-vision to a single target.
@@ -1027,6 +1052,7 @@ VIII. Grav Chute Training Assessment
     * Type in ‘/1target’ and input specific coordinates (<XXX,YYY,ZZZ>)
         * Note that you can copy/paste pings directly from local and it will work.
         * You can also click a ping link in local and the mortar will auto-target those coordinates. This is **very important** to learn.
+
 
 + Rounds & Firing Modes
     * Mortar has two firing modes.
@@ -1082,9 +1108,11 @@ VIII. Grav Chute Training Assessment
 
 
 + COOL TRICKS
-    * Like Inferno grenades, inferno or razorwire rounds from a mortar ruin the fun of teleporters. Plant one of these rounds where the roaches are coming from and watch a forward advance stop in its tracks. When no one is around to replace the TP pad, feel free to krak shell it to oblivion.
+    * Like Inferno grenades, inferno or razorwire rounds from a mortar ruin the fun of teleporters and chokepoints. Plant one of these rounds where the roaches are coming from and watch a forward advance stop in its tracks. When the area is clear of infantry, feel free to krak shell it to oblivion.
     * Radical artillery men quickly alt cam between two teleport points and shell both of them as quickly as possible.
     * Dropping infernos from the sky on barricades/sandbags is hilarious.
+    * Ideally, you want to just barely clear any intervening obstacles with your shells in order to ensure the fastest speed whilst maintaining accuracy.
+    * It is the wise artilleryman who opens a salvo with either an inferno, airburst, or chaff round to overwhelm enemy interceptors. Do not allow the enemy to blue-ball you, and remember that every second counts.
 
 
 ---
