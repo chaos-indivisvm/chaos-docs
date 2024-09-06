@@ -125,6 +125,9 @@ We're a fun bunch. Our mentality towards rule breaking is: if it is anything tha
  
 ▸ Cheesing internal systems 
 - Don't do this. We have systems in place to allow for corruption and god favor unlocks, which are meant to take time to get. If you find a loophole and abuse the hell out of it, you're stepping all over those who are earning corruption as intended, and cheapening the experience for all of us. These goalposts are there to encourage activity and to give you something to work towards. If you find a bug, report it. Bug reports will never result in punishment.
+
+▸ Dual Enlisting 
+- Dual Enlisting is not allowed in Chaos Indivisvm. If you are drawn into another group and enlist, leave our group. We encourage combat for the sake of combat, and encourage our members to fight as militia for other groups, but enlisting into another group while in our ranks leads to conflicts of interest and ultimately drama stemming from said conflicts of interest. Some groups are considered militias in their own right, when in doubt though approach a chaos officer inquiring about it. This does not apply for defunct or veteran groups, only groups currently active.
  
 ▸ Lying to Us
 - If you do something listed above, or something otherwise distasteful, do not lie about it. Any consequences given will be worse if you lie and may be mitigated if you are upfront and honest. We're smarter than you. We will find out eventually. All of us in this group has done something shitty or cringy on the internet, the difference is we don't lie about the shitty things we've done.
