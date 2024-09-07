@@ -6,7 +6,7 @@ nav_order: 2
 
 # ❋ Chaos Indivisvm ❋
 {: .no_toc }
-Handbook Issue 6.0.0
+Handbook Issue 6.0.1
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -277,6 +277,7 @@ http://hey.gayboi.icu/
 
 
 # Change Log
++ Issue v.6.0.1 Re-added section referring to dual enlisting, updating version number
 + Issue v.6.0.0 Re-formatted and took out gay LARPing shit, condensed a lot of shit, links updated: June 22, 2024
 + Issue v.5.8.0 Obsolete section removal, some rearrangement, unacceptable behaviour policies updated, links updated.
 + Issue v.5.7.3 Fixed sentence structure and grammar
