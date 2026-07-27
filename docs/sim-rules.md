@@ -7,7 +7,7 @@ nav_order: 7
 {: .no_toc }
 - Sim Rules
 
-Updated: 03/28/2026 - March 28th, 2026
+Updated: 07/26/2026 - July 26th, 2026
 
 Authors: Dread Hudson, Hadet Sonnenkern, & Sam Huntsman
 
@@ -34,6 +34,7 @@ If your group declares its intentions to be obnoxious little assholes don't expe
 8. Don't beta test gear without asking the OIC
 9. LBA armor systems only
 10. No self healing armor unless it's a riot shield not in use or a LBA light vehicle shield that isn't active
+11. Don't GPU crash, Steal content, Mass AR or Doxx people.
 
 # Expanded Rules - LONG VERSION 
 ## I. Don't be an Asshole:
@@ -46,6 +47,7 @@ Examples of this include:
     * This **will** get you a week ban right off the bat.
 6. Engaging people in non combat areas. The VR room is off limits for combat, as is the armoury and AFK room. If people are in these areas, they are busy doing other shit. If someone is busy in these areas and you are messing with them you will be removed from the sim.
 7. Ensure any AO being used does not differ from your hitbox location, if your flippy ninja AO moves your visual away from where you can be hit it is not allowed in our sim.
+8. Violating any of the "BIG 4" - Doxxing, GPU crashing, Mass ARing, Content theft
 
 # II. Equipment: (Any device deployed on the field of battle)
     
@@ -193,8 +195,9 @@ Because people are getting fucking retarded about it, Here's a refresher course 
     * The second offense will be 72.
     * The third offense will be for a week.
     * Any offenses after this will be considered third offense.
-    * You will not be PERMANENTLY banned for anything other than Sim Crashing, Graphics Crashing, Abuse Reporting, Intentionally disrupting sim performance (ie turning off rezzing or physics).
+    * You will not be PERMANENTLY banned for anything other than Doxxing, Sim Crashing, Graphics Crashing, Abuse Reporting, Intentionally disrupting sim performance (ie turning off rezzing or physics).
     * If you were banned for any reason a thread will have been made to log the ban. If a ban report cannot be found, the ban will be lifted after a period of 24 hours, to allow for any banning admin to explain it and provide said thread. They will be made fun of for not having done this beforehand.
+    * Doxxing includes doing stupid shit with people's IRL information, not just releasing it. If you're acting maliciously with any of that we don't care to what extent, you're not welcome here.
     * If you feel you have been unjustly banned, and aren't just being a little smartass about it, Contact Hadet Sonnenkern, Dread Hudson, or Tyro Gutter. Punishment will be issued to the appropriate parties. This includes you.
     
 ## Administrative Staff:
